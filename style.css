@@ -17,13 +17,6 @@ li {
 .margin-top-10 {padding-top:10px;}
 .margin-bot-10 {padding-bottom:10px;}
 
-/* Typography */
-/**************************/
-#parallax-world-of-ugg h1 { font-size:24px; font-weight:400; text-transform: uppercase; color:black; padding:0; margin:0;}
-#parallax-world-of-ugg h2 { font-size:70px; letter-spacing:10px; text-align:center; color:white; font-weight:400; text-transform:uppercase; z-index:10; opacity:.8;}
-#parallax-world-of-ugg h3 { font-size:14px; line-height:0; font-weight:400; letter-spacing:8px; text-transform: uppercase; color:black;}
-#parallax-world-of-ugg p { font-weight:400; font-size:14px; line-height:24px;}
-.first-character {font-weight:400; float: left; font-size: 84px; line-height: 64px; padding-top: 4px; padding-right: 8px; padding-left: 3px; }
 
 .sc {color: #3b8595;}
 .ny {color: #3d3c3a;}
@@ -153,6 +146,14 @@ input[type="search"] {
 }
 .screen-one ul {
 	padding: 0;
+	margin-top: 0;
+}
+.screen-one h3 {
+	color: red;
+	font-size: 28px;
+	margin: 0;
+	font-weight: 900;
+	line-height: 2;
 }
 .gqi-one {
 	position: relative;
@@ -165,6 +166,7 @@ input[type="search"] {
 }
 .one h2 {
 	background: none!important;
+	color: #fff;
 }
 .tags {
 	position: absolute;
@@ -175,24 +177,24 @@ input[type="search"] {
 	display: inline-block;
 	color: #fff;
 	background: #000;
-	font-weight: 900!important;
+	font-weight: 900;
 	text-transform: uppercase;
 	padding: 0 3px;
 	border-radius: 5px;
-	font-size: 12px!important;
+	font-size: 12px;
 }
 .tags h2 {
-	padding: 0;
-	font-size: 28px!important;
-	font-weight: 900!important;
-	letter-spacing: 0px!important;
+	color: #fff;
+	font-size: 28px;
+	font-weight: 900;
+	letter-spacing: 0px;
 	margin: 0;
-	text-align: left!important;
-	text-transform: inherit!important;
+	text-align: left;
+	text-transform: inherit;
 	background: #000;
 	line-height: 1;
 	padding: 0 3px;
-	opacity: 1!important;
+	opacity: 1;
 }
 
 /* Media Queries */
