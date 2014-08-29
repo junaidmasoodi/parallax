@@ -7,6 +7,13 @@ body {
 li {
 	list-style: none;
 }
+/*menu settings*/
+.fixed {
+	position: fixed; 
+	top: 0;
+	z-index: 1;
+	width: 100%;
+}
 /* Override UGG site */
 #main {width: 100%; padding:0;}
 .content-asset p {margin:0 auto;}
@@ -195,6 +202,95 @@ input[type="search"] {
 	line-height: 1;
 	padding: 0 3px;
 	opacity: 1;
+}
+.outer-nargis {
+	background: #000;
+	padding: 1em 0;
+}
+.nargis {
+	max-width: 940px;
+	margin: auto;
+}
+.nargis img, .nargis-details {
+	display: inline-block;
+	color: #fff;
+	vertical-align: top;
+}
+.nargis img {
+	margin-right: 10px;
+}
+.nargis-details {
+	width: 460px;
+}
+.nargis-details h2 {
+	margin: 0;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 1;
+}
+.nargis-details p {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 5px;
+}
+tag {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 8px;
+	font-size: 12px;
+	background: #ed1c24;
+	border-radius: 5px;
+	font-weight: 600;
+}
+tag:&hover {
+	background: #e5e5e5;
+	color: #000;
+}
+.bottom-nargis {
+	margin-top: 1em;
+	padding: 0;
+}
+.nargis li {
+	display: inline-block;
+	margin-bottom: 1em;
+}
+.sponsor {
+	float: right;
+	margin-top: 6.8em;
+}
+.sponsor-left {
+	float: none;
+	margin-top: 11em;
+}
+tags {
+	text-transform: uppercase;
+	text-decoration: none;
+	background: #000;
+	color: #fff;
+	padding: 8px;
+	font-size: 12px;
+	font-family: "tablet-gothic-wide", sans-serif;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.load {
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 2em;
+}
+.load div {
+	text-align: center;
+	display: inline-block;
+	border: 2px solid #858585;
+	padding: 1px;
+}
+.load p {
+	font-size: 18px;
+	font-weight: 900;
+	color: #858585;
+	border: 1px solid #858585;
+	padding: 0.5em 8em;
+	margin: 0;
 }
 
 /* Media Queries */
