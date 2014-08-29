@@ -68,7 +68,7 @@ body {
 	margin-right: 1em;
 }
 ul.inline-block {
-	margin-right: 6em;
+	margin-right: 5.9em;
 }
 ul.inline-block li {
 	display: inline-block;
@@ -126,6 +126,10 @@ ul.inline-block li a {
 	color: #fff;
 	font-weight: 900;
 	margin-right: 3em;
+}
+.nu-letter {
+	margin: 0;
+	display: inline-block;
 }
 .secondary-header ul {
 	padding: 0;
