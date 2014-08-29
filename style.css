@@ -96,6 +96,9 @@ ul.inline-block li a {
 	font-size: 13px;
 	margin-right: 1em;
 }
+.newss {
+	width: 217px;
+}
 .search, .menu {
 	font-size: 25px;
 	margin: 0 0.3em;
@@ -149,6 +152,9 @@ input[type="search"] {
 	padding: 3px;
 	border-radius: 4px;
 	margin-left: -54px;
+}
+.subsc {
+	display: inline-block;
 }
 /* Screens */
 .screen-one {
