@@ -217,6 +217,10 @@ input[type="search"] {
 	background: #000;
 	padding: 1em 0;
 }
+.narm {
+	margin-left: 15px;
+}
+
 .nargis {
 	max-width: 940px;
 	margin: auto;
@@ -225,9 +229,6 @@ input[type="search"] {
 	display: inline-block;
 	color: #fff;
 	vertical-align: top;
-}
-.nargis img {
-	margin-right: 10px;
 }
 .nargis-details {
 	width: 460px;
@@ -263,6 +264,19 @@ tag:&hover {
 .nargis li {
 	display: inline-block;
 	margin-bottom: 1em;
+	vertical-align: top;
+	max-width: 220px;
+	margin-right: 15px;
+	margin-top: 1em;
+}
+.nargis li:nth-child(4n) {
+	margin-right: 0;
+}
+.nargis li h3 {
+	margin: 0;
+	height: 85px;
+	margin-top: 10px;
+	overflow: hidden;
 }
 .sponsor {
 	float: right;
@@ -291,18 +305,103 @@ tags {
 .load div {
 	text-align: center;
 	display: inline-block;
-	border: 2px solid #858585;
-	padding: 1px;
+	background: #999;
 }
 .load p {
 	font-size: 18px;
 	font-weight: 900;
-	color: #858585;
-	border: 1px solid #858585;
+	color: #fff;
 	padding: 0.5em 8em;
 	margin: 0;
 }
-
+footer .footer-secondary {
+	background: #262626;
+	text-align: center;
+	padding-top: 2em;
+	line-height: 0;
+}
+.footer ul{
+	background: #333;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-weight: 600;
+}
+.footer-primary {
+	background: #333;
+	padding: 2em 0;
+}
+.footer {
+	max-width: 940px;
+	margin: auto;
+}
+.footer-primary ul {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 3em;
+}
+.footer-primary li {
+	margin: 0.5em 0; 
+}
+.footer-primary li a, .foter-bottom .right .two li {
+	color: #fff;
+	background: #000;
+	text-decoration: none;
+	padding: 1px 2px;
+	font-weight: 400;
+}
+.foter-bottom {
+	max-width: 940px;
+	margin: auto;
+	border-top: 1px solid #272727;
+	margin-top: 4em;
+	padding-top: 2em;
+}
+.foter-bottom div {
+	vertical-align: top;
+	margin-bottom: 2em;
+}
+.foter-bottom .left, .foter-bottom .right {
+	
+	max-width: 49%;
+	display: inline-block;
+	vertical-align: top;
+}
+.foter-bottom .left li, .foter-bottom .right li {
+	display: inline-block;
+}
+.foter-bottom .left .one li {
+	margin-right: 3em;
+}
+.foter-bottom .left .one li a{
+	color: #fff;
+	background: none;
+	font-size: 24px;
+	font-weight: 900;
+	line-height: 1;
+}
+.foter-bottom .left .two p, .foter-bottom .right .one p, .foter-bottom .right .two p {
+	font-size: 24px;
+	font-weight: 900;
+	color: #fff;
+	margin: 0;
+}
+.copyright {
+	max-width: 940px;
+	margin: auto; 
+}
+.copyright li {
+	background: #000;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 600;
+	display: inline-block;
+	padding: 1px 2px;
+}
+.copyright p {
+	display: inline-block;
+	color: #fff;
+}
 /* Media Queries */
 /**************************/
 @media screen and (max-width: 959px) and (min-width: 768px) {
